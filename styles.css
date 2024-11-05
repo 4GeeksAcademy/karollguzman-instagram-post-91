@@ -30,6 +30,7 @@ body {
     margin: 10px;
 }
 .primero {
+    d-flex: flex;
     font-size: 12px;
     padding: 2px;
     font-family: Arial, sans-serif;
