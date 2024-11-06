@@ -29,8 +29,14 @@ body {
     padding: 5px;
     margin: 10px;
 }
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 .primero {
-    d-flex: flex;
+    display: flex;
     font-size: 12px;
     padding: 2px;
     font-family: Arial, sans-serif;
@@ -41,6 +47,7 @@ body {
     font-size: 12px;
     padding: 2px;
     font-family: Arial, sans-serif;
+    display: flex;
 }
 .alinearderecha {
     float: right;
@@ -61,4 +68,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 10px;
 }
-
+.tercero {
+    font-size: 12px;
+    padding: 2px;
+    font-family: Arial, sans-serif;
+    margin-top: -10px;
+    
+}
+h4,h5 {
+    margin: 0;
+    padding: 0;
+}
+#iconito {
+    font-size: 24px;
+    margin-top: -10px;
+}
